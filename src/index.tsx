@@ -1,6 +1,1 @@
-import React from 'react';
-
-interface PopupsProps {}
-
-const popups: React.FC<PopupsProps> = () => <div>Have a good coding</div>;
-export default popups;
+export * as Popup1 from './components/Popup1/Popup1';
