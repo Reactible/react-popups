@@ -1,6 +1,6 @@
 import React from 'react';
 
-type PopupsProps = {};
+interface PopupsProps {}
 
 const popups: React.FC<PopupsProps> = () => <div>Have a good coding</div>;
 export default popups;
